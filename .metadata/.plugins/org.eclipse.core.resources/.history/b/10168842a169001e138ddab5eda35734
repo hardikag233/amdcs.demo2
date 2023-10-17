@@ -1,0 +1,22 @@
+package com.training.adi;
+
+public class MyClass {
+	public static void main(String[] args) {
+		
+		/*Student stud1 = new Student();
+		stud1.setStudName("Hardik");
+		stud1.setRollNo(23);
+		stud1.setSchoolName("BBPS");
+		stud1.setMarks(94);*/
+		
+		Student stud2 = new Student("Harshit",24,"Ryan Intl",85);
+		
+		/*System.out.println(stud1.getStudName());
+		System.out.println(stud1.getRollNo());
+		System.out.println(stud1.getSchoolName());
+		System.out.println(stud1.getMarks());*/
+		
+		System.out.println(stud2.toString());
+	}
+
+}

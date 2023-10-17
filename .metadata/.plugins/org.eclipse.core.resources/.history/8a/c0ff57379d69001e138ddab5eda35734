@@ -1,0 +1,40 @@
+package com.training.adi;
+
+public class Employee {
+	private String empName;
+	private int empID;
+	private String deptName;
+	private double salary;
+	
+	public String getEMpName() {
+		return empName;
+	}
+	
+	public void setEmpName(String empName) {
+			this.empName = empName;
+	}
+
+	public int getEmpID() {
+		return empID;
+	}
+
+	public void setEmpID(int empID) {
+		this.empID = empID;
+	}
+
+	public String getDeptName() {
+		return deptName;
+	}
+
+	public void setDeptName(String deptName) {
+		this.deptName = deptName;
+	}
+
+	public double getSalary() {
+		return salary;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+}

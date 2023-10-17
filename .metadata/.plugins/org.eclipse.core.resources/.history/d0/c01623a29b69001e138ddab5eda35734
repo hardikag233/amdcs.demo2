@@ -1,0 +1,9 @@
+package com.training.adi;
+
+public class Employee {
+	String emp;
+	int empID;
+	String deptName;
+	double salary;
+
+}

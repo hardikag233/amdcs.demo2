@@ -1,0 +1,24 @@
+package com.training.adi;
+
+public class MyClass {
+	public static void main(String[] args) {
+		
+		/*Student stud1 = new Student();
+		stud1.setStudName("Hardik");
+		stud1.setRollNo(23);
+		stud1.setSchoolName("BBPS");
+		stud1.setMarks(94);*/
+		
+		PermanentEmployee p1 = new PermanentEmployee(201,"Harshit","Finance",85000,12);
+		p1.getPF();
+		System.out.println("Pf Amount: "+p1.pfAmount);
+		
+		/*System.out.println(stud1.getStudName());
+		System.out.println(stud1.getRollNo());
+		System.out.println(stud1.getSchoolName());
+		System.out.println(stud1.getMarks());*/
+		
+		//System.out.println(stud2.toString());
+	}
+
+}

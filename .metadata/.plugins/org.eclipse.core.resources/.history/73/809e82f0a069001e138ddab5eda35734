@@ -1,0 +1,36 @@
+package com.training.adi;
+
+public class Student {
+	private String studName;
+	private int rollNo;
+	private String schoolName;
+	private int marks;
+	
+	public String getStudName() {
+		return studName;
+	}
+	public void setStudName(String studName) {
+		this.studName = studName;
+	}
+	public int getRollNo() {
+		return rollNo;
+	}
+	public void setRollNo(int rollNo) {
+		this.rollNo = rollNo;
+	}
+	public String getSchoolName() {
+		return schoolName;
+	}
+	public void setSchoolName(String schoolName) {
+		this.schoolName = schoolName;
+	}
+	public int getMarks() {
+		return marks;
+	}
+	public void setMarks(int marks) {
+		this.marks = marks;
+	}
+	
+	
+
+}

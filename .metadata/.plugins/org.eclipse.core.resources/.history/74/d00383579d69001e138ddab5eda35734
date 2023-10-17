@@ -1,0 +1,16 @@
+package com.training.adi;
+
+public class MyClass {
+	public static void main(String[] args) {
+		
+		Employee emp1 = new Employee();
+		emp1.setEmpName("David");
+		emp1.setEmpID(101);
+		emp1.setDeptName("Sales");
+		emp1.setSalary(200000);
+		
+		System.out.println(emp1.getEMpName());
+		
+	}
+
+}

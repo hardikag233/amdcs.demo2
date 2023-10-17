@@ -1,0 +1,21 @@
+package com.training.adijava8;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
+
+public class StreamDemo {   //Stream divides large operation into fragments,i.e., multiple intermediary streams and
+                            //one terminating stream
+	public static void main(String[] args) {
+		
+		List <Integer> numbers = Arrays.asList(10,20,12,15,27);
+		Stream <Integer> numStream = numbers.stream();
+		numStream.filter(x -> x >15).map(n -> n*n).forEach(t -> System.out.println(t));
+		
+		List <String> names = Arrays.asList("Harshit", "Sid","Sam","Hardik");
+		Stream <String> nameStream = names.stream();
+		nameStream.filter(x -> x.startsWith("S")).map(n -> n.concat(" Arora")).forEach(t -> System.out.println(t));
+
+	}
+
+}

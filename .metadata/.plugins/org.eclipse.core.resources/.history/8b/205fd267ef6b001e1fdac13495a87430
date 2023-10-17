@@ -1,0 +1,16 @@
+package com.training.adi;
+
+public class SavingsAccount implements Account{
+	
+	@Override
+	public double getInterestRate() {
+		return 0.03
+	}
+
+	@Override
+	public double calcInterest(double amount) {
+		// TODO Auto-generated method stub
+		return amount*0.03;
+	}
+
+}

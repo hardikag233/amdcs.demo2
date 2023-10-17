@@ -1,0 +1,20 @@
+package com.training.adi;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class ArraySort {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter no. of elements: ");
+		int n=sc.nextInt();
+		
+		int num[]=new int[n];
+		System.out.println("Enter elements of array: ");
+		for(int i=0;i<n;i++) {
+			num[i]=sc.nextInt();
+		}
+		System.out.println("Sorted array:" + Arrays.sort(num));
+	}
+
+}

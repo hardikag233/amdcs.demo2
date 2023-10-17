@@ -1,0 +1,5 @@
+package com.training.adijava8;
+
+public interface MyInterface {
+
+}

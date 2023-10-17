@@ -1,0 +1,23 @@
+package com.training.adijava8;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
+
+public class StreamDemo {   //Stream divides large operation into fragments,i.e., multiple intermediary streams and
+                            //one terminating stream
+	public static void main(String[] args) {
+		
+		//entering list of ints, displaying sq of nos > 15
+		List <Integer> numbers = Arrays.asList(10,20,12,15,27);
+		//Stream <Integer> numStream = numbers.stream();
+		numbers.stream().filter(x -> x >15).map(n -> n*n).forEach(t -> System.out.println(t));
+		
+		//entering list of names, filter by first letter S, add surname, sort and display
+		List <String> names = Arrays.asList("Harshit", "Sid","Sam","Hardik");
+		Stream <String> nameStream = names.stream();
+		nameStream.filter(x -> x.startsWith("S")).map(n -> n.concat(" Arora")).sorted().forEach(t -> System.out.println(t));
+
+	}
+
+}
